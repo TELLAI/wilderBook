@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/connexion/add
+Content-Type: application/json
+
+{ "wilder": "youcef", "skill": "MeteorJS" }
+
+###
+
+PUT http://localhost:5000/api/connexion/update
+Content-Type: application/json
+
+{ "wilder": "youcef", "skill": "MeteorJS", "newVotes": 8 }

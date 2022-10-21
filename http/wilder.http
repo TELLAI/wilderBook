@@ -1,0 +1,33 @@
+POST http://localhost:5000/api/wilder/add
+Content-Type: application/json
+
+{
+    "name" : "tellai",
+    "fileName" : "pic"
+}
+
+###
+
+GET http://localhost:5000/api/wilder/liste
+
+###
+
+PUT http://localhost:5000/api/wilder/change
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "name" : "youcef",
+}
+
+###
+
+DELETE http://localhost:5000/api/wilder/delete/2
+
+###
+
+GET http://localhost:5000/api/wilder/find/1
+
+
+###
+

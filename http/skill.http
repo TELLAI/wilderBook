@@ -1,0 +1,25 @@
+
+POST http://localhost:5000/api/skill/add
+Content-Type: application/json
+
+{
+    "name" : "MeteorJS"
+}
+
+###
+
+GET http://localhost:5000/api/skill/liste
+
+###
+
+PUT http://localhost:5000/api/skill/change
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "name" : "JavaScript"
+}
+
+###
+
+DELETE http://localhost:5000/api/skill/delete/JavaScript

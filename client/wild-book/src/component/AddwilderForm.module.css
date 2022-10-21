@@ -1,0 +1,26 @@
+.formulaire {
+    
+    max-width: 30%;
+    margin: 80px auto;
+    border-radius: 15px;
+    border-color: #F76C6C;
+    border-style: solid;
+    padding: 80px 0;
+}
+input, button {
+    border-radius: 15px;
+    margin: 5px;
+    border-style: dashed;
+    height: 30px;
+    line-height: 15px;
+}
+
+button {
+    border-style: inherit;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #F76C6C;
+    border-color: #F76C6C;
+    font-weight: bold;
+}
